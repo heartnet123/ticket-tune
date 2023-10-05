@@ -62,13 +62,13 @@ function ProfileManagement() {
       
           {isEditingName ? (
             <div>
-              <input value={tempName} onChange={handleNameChange} />
+              <input className="temp" value={tempName} onChange={handleNameChange} />
               <md-filled-button onClick={handleSaveClick}>Save</md-filled-button>
               <md-outlined-button onClick={handleCancelClick}>Cancel</md-outlined-button>
             </div>
           ) : (
-            <p onClick={() => { setIsEditingName(true); setTempName(name); }}>
-              {name} <button onClick={() => { setIsEditingName(true); setTempName(name); }}>Edit</button>
+            <p className="name-display" onClick={() => { setIsEditingName(true); setTempName(name); }}>
+              {name} <button className='editbtn' onClick={() => { setIsEditingName(true); setTempName(name); }}>Edit</button>
             </p>
           )}
         </div>

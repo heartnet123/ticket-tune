@@ -36,17 +36,29 @@ body {
 }
 /*label name */
 .name {
-    position:absolute;
+    position:relative;
     font-size: 20px;
-    margin-left: 15px;
-    margin-bottom: 50px;
+    top: 65px;
+    left: -120px;
+
 }
 /* ปรับปุ่ม change */
 .changebtn {
     position: relative;
     top: 160px;
-    left: -255px;
+    left: -310px;
 }
+.editbtn{
+    position: relative;
+    margin-left: 100px;
+}
+
+.name-display {
+        position: relative;
+        top: 30px;
+        left:160px;
+}
+
 /* ปรับเปลี่ยนหน้า profile payment booking */
 .sidebar-container {
     position:absolute;
