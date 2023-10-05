@@ -1,0 +1,54 @@
+/* ทั้งหมด */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0; 
+    padding: 0; 
+}
+
+/* กรอบที่มีข้อมูลอยู๋ */
+.profile-container {
+    max-width: 850px;
+    height: 676px;
+    margin: 20px auto;
+    border: 2px solid #121629;
+    border-radius: 13px;
+    background-color: #b8c1ec;
+    padding: 20px; 
+}
+
+/* ปรับขนาดตัวอักษร */
+.Userdetail {
+    font-size: 32px;
+    margin-bottom: 10px;
+    position:relative;
+}
+
+/* ปรับรูปโปรไฟล์ */
+.profile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 44%;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    top: 80px;
+    left: -150px;
+    position:relative;
+}
+/*label name */
+.name {
+    position:absolute;
+    font-size: 20px;
+    margin-left: 15px;
+    margin-bottom: 50px;
+}
+/* ปรับปุ่ม change */
+.changebtn {
+    position: relative;
+    top: 160px;
+    left: -255px;
+}
+/* ปรับเปลี่ยนหน้า profile payment booking */
+.sidebar-container {
+    position:absolute;
+    left: 44.5%;
+}
