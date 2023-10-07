@@ -4,6 +4,7 @@ import ProfileManagement from './ProfileManagement';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom'; 
 import MyBooking from './MyBooking';
 import './App.css';
+import LoginPage from './loginpage';
 
 function App() {
   return (
@@ -29,6 +30,9 @@ function App() {
           <li className="nav-item-cart">
             <Link className="nav-link" to="/cart">Cart</Link> 
           </li>
+          <li className="nav-item-login">
+            <Link className="nav-link" to="/login">Login</Link> 
+          </li>
         </ul>
       </div>
     </nav>
@@ -38,6 +42,7 @@ function App() {
           <Route path="/profile" element={<ProfileManagement />} />
           <Route path="/booking" element={<MyBooking />} />
           <Route path='/cart' element={<HomePage/>} />
+          <Route path='/login' element={<LoginPage/>}/>
         </Routes>
 
       </Router>

@@ -64,3 +64,19 @@ body {
     position:absolute;
     left: 44.5%;
 }
+
+.name-edit-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 30px;
+    left: 160px;
+}
+
+.name-edit-container label {
+    margin-right: 10px;
+}
+
+.name-edit-container .temp {
+    margin-right: 10px;
+}
